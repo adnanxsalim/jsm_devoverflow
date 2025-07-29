@@ -10,14 +10,12 @@ interface Author {
 }
 
 interface Question {
-  question: {
-    _id: string;
-    title: string;
-    tags: Tag[];
-    author: Author;
-    createdAt: Date;
-    upvotes: number;
-    answers: number;
-    views: number;
-  };
+  _id: string;
+  title: string;
+  tags: Tag[];
+  author: Author;
+  createdAt: Date;
+  upvotes: number;
+  answers: number;
+  views: number;
 }
